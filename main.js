@@ -52,11 +52,11 @@ document.addEventListener('DOMContentLoaded', () => {
      ------------------------------------ */
   const typingElement = document.getElementById('hero-typing');
   const phrases = [
+    'ML & CV Engineer.',
     'Full-Stack Developer.',
     'AI Researcher.',
     'CS Student at ZHAW.',
     'Problem Solver.',
-    'Freelance Developer.',
   ];
   let phraseIndex = 0;
   let charIndex = 0;
