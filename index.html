@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Erdal Ayfer — Computer Science student & full-stack developer. Research experience at ZHAW Centre for AI. Portfolio showcasing projects in web development, AI, and software engineering.">
+  <title>Erdal Ayfer — Developer & CS Student</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Three.js Canvas -->
+  <canvas id="three-canvas"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">EA.</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="section-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-title">
+          <span class="line">Hi, I'm <span class="gradient-text">Erdal Ayfer</span></span>
+          <span class="line"><span class="hero-typing" id="hero-typing"></span><span class="hero-cursor">|</span></span>
+        </h1>
+        <p class="hero-description">
+          Computer Science student at ZHAW with research experience in AI. I build full-stack applications, automate data workflows, and turn complex problems into elegant solutions.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work →</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Turning Ideas Into Reality</h2>
+        <p class="section-subtitle">A passionate developer blending creativity with technical precision.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <strong>Computer Science</strong> student at <strong>ZHAW School of Engineering</strong> in Winterthur, Switzerland. 
+            With a foundation in software and web development, I've worked on diverse projects — from automating data generation pipelines 
+            for AI systems to building full-stack web applications for various clients as a freelancer.
+          </p>
+          <p>
+            My research internship at the <strong>ZHAW Centre for AI</strong> gave me hands-on experience in computer vision and LLM data workflows,
+            collaborating alongside PhD students and senior researchers. I bring a practical, problem-solving mindset to everything I build.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <div class="detail-icon">📍</div>
+              <span>Winterthur, Switzerland</span>
+            </div>
+            <div class="detail-item">
+              <div class="detail-icon">🎓</div>
+              <span>B.Sc. Computer Science — ZHAW (ongoing)</span>
+            </div>
+            <div class="detail-item">
+              <div class="detail-icon">🌐</div>
+              <span>German (native) · Turkish (native) · English (C1)</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card">
+            <div class="stat-number">4+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Languages Spoken</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">AI</div>
+            <div class="stat-label">Research Focus</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">Experience</span>
+        <h2 class="section-title">Where I've Worked</h2>
+        <p class="section-subtitle">A journey through research, freelancing, and professional development.</p>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sept 2023 — Sept 2024</div>
+          <h3 class="timeline-title">Research Intern</h3>
+          <div class="timeline-company">ZHAW Centre for AI — Winterthur</div>
+          <div class="timeline-desc">
+            <ul>
+              <li>Automated data generation for computer vision and LLM tasks</li>
+              <li>Collaborated with PhD students and senior researchers on AI projects</li>
+              <li>Developed software engineering solutions with Python</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 — Aug 2023</div>
+          <h3 class="timeline-title">Software & Web Developer</h3>
+          <div class="timeline-company">Freelancer — Remote</div>
+          <div class="timeline-desc">
+            <ul>
+              <li>Developed websites, web stores and web applications for various clients</li>
+              <li>Front-end development with HTML, CSS, JS and various frameworks</li>
+              <li>Back-end development with PHP, SQL and CMS solutions</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020 — Aug 2022</div>
+          <h3 class="timeline-title">Web Developer Intern</h3>
+          <div class="timeline-company">TOWEB GmbH — Zürich</div>
+          <div class="timeline-desc">
+            <ul>
+              <li>Implemented websites and webshops with modern frameworks</li>
+              <li>Full-stack development: HTML/CSS/JS front-end, PHP back-end, SQL databases</li>
+              <li>Worked with CMS platforms: WordPress, PrestaShop, Statamic, Made Simple</li>
+              <li>Marketing, optimization and client support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">Things I've Built</h2>
+        <p class="section-subtitle">From AI research contributions to full-stack applications.</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-icon">🧠</div>
+          <h3 class="project-title">Master3D</h3>
+          <p class="project-desc">Contributed to automated data generation for computer vision at ZHAW. Building pipelines that generate high-quality training data for 3D vision models.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Computer Vision</span>
+            <span class="project-tag">AI</span>
+          </div>
+          <a href="https://www.zhaw.ch/de/forschung/projekt/73447" target="_blank" class="project-link">View Project →</a>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-icon">🤖</div>
+          <h3 class="project-title">SwissAI</h3>
+          <p class="project-desc">Contributed to automated data generation for large language model tasks. Part of the Swiss AI initiative for advancing AI research in Switzerland.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">LLM</span>
+            <span class="project-tag">Data Pipeline</span>
+          </div>
+          <a href="https://github.com/swiss-ai" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-icon">📇</div>
+          <h3 class="project-title">tapera</h3>
+          <p class="project-desc">A digital business card app using NFC technology. Opens a personal website with contact information and enables simple, contactless sharing.</p>
+          <div class="project-tags">
+            <span class="project-tag">Bootstrap</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">PHP</span>
+            <span class="project-tag">MySQL</span>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-icon">📚</div>
+          <h3 class="project-title">Moodler</h3>
+          <p class="project-desc">Automated organization of Moodle student portal content. Sorts PDF files by module, saves them locally and clearly displays all academic appointments.</p>
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">Automation</span>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-icon">🏎️</div>
+          <h3 class="project-title">RaceTrack</h3>
+          <p class="project-desc">A console-based strategy game that digitally implements the classic car race on squared paper. Features vector-based movement and strategic gameplay.</p>
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">Game Dev</span>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-icon">🚆</div>
+          <h3 class="project-title">Tracks</h3>
+          <p class="project-desc">A gamified public transport app that rewards users with points and achievements for sustainable travel, with planning tools and social features.</p>
+          <div class="project-tags">
+            <span class="project-tag">Kotlin</span>
+            <span class="project-tag">Android</span>
+            <span class="project-tag">Mobile</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">My Tech Stack</h2>
+        <p class="section-subtitle">Technologies and tools I work with daily.</p>
+      </div>
+      <div class="skills-layout reveal">
+        <div>
+          <div class="skills-category">
+            <h3 class="skills-category-title"><span class="icon">💻</span> Programming Languages</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">JavaScript / TypeScript</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">HTML / CSS</span>
+                  <span class="skill-level">Expert</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">PHP</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="82%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Java / Kotlin</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="72%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">C</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="55%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="skills-category">
+            <h3 class="skills-category-title"><span class="icon">⚙️</span> Frameworks & Tools</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">React / Node.js</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Laravel</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">PyTorch / TensorFlow</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="68%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Docker</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="65%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Bootstrap / CSS Frameworks</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="tech-cloud">
+            <span class="tech-tag">VS Code</span>
+            <span class="tech-tag">PyCharm</span>
+            <span class="tech-tag">IntelliJ</span>
+            <span class="tech-tag">Android Studio</span>
+            <span class="tech-tag">Git</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">WordPress</span>
+            <span class="tech-tag">Statamic</span>
+            <span class="tech-tag">PrestaShop</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Have a project in mind or just want to chat? I'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p>
+            I'm always open to discussing new projects, creative ideas, or opportunities to be part of something great. 
+            Whether it's a full-stack web app, AI project, or freelance work — let's connect!
+          </p>
+          <div>
+            <a href="mailto:erdalayfer97@gmail.com" class="contact-item">
+              <div class="contact-item-icon">✉️</div>
+              <span>erdalayfer97@gmail.com</span>
+            </a>
+            <br>
+            <a href="tel:+41789527700" class="contact-item">
+              <div class="contact-item-icon">📱</div>
+              <span>+41 78 952 77 00</span>
+            </a>
+            <br>
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <span>Winterthur, Switzerland</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://linkedin.com/in/erdalayfer" target="_blank" class="social-link" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://github.com/erdal-ayfer" target="_blank" class="social-link" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 <span>Erdal Ayfer</span>. Crafted with passion & code.</p>
+  </footer>
+
+  <!-- Three.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="three-scene.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
